@@ -87,12 +87,14 @@ nav li {
     padding-bottom: 50px;
 }
 .block_1 li:hover {
-        text-decoration: underline;
+    text-decoration: underline;
 }
 .block_2 {
-    
-    
     width: 585px;
+}
+.e_mail {
+    display: flex;
+    align-items: center;
 }
 .block_2 p{
     font-family: "UbuntuMedium";
