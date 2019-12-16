@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(../font/FontAwesome.otf);
+}
+@font-face {
+    font-family: "NunitoRegular";
+    src: url(../font/NunitoRegular.ttf);
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../font/Ubuntu.ttf);
+}
+@font-face {
+    font-family: "UbuntuMedium";
+    src: url(../font/UbuntuMedium.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.block_1 {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;  
+}
+.logo {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.logo h2 {
+    font-size: 41px;
+    font-family: "Ubuntu";
+    line-height: 1.707;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.logo span {
+    color: #65a9d9;
+}
+
+
+nav ul {
+    display: flex;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    color: rgba(45, 57, 76, 0.839);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+nav li {
+    list-style: none;
+    font-family: "Ubuntu";
+    margin-left: 33px;
+}
+.navi {
+    
+    display: flex;
+    align-items: center;
+    padding-right: 111px;
+}
+.fon {
+    background-image: url(../images/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 843px;
+    padding-top: 18%;
+    padding-left: 13%;
+}
+.fon h3 {
+    color: #f7f6f2;
+    font-family: Ubuntu;
+    font-size: 52px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.block_2 {
+    
+    
+    width: 482px
+}
+.block_2 p{
+    font-family: "UbuntuMedium";
+    color: #ffffff;
+    
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.block_2 span {
+    background-color: #ffce54;
+    border-radius: 5px;
+    padding: 3px 10px;
+    
+}
+ .block_2 input {
+     padding: 15px;
+     color: #2d394c;
+    font-family: Ubuntu;
+    border-radius: 10px;
+    padding-right: 140px;
+ } 
+.text_1 {
+    background-color: #77c344;
+    font-family: Ubuntu;
+    border-radius: 5px;
+    padding: 15px 30px;
+ }
