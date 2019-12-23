@@ -138,6 +138,8 @@ nav li {
     display: flex;
     justify-content:center;
     background-color: #f8f8f8;
+    flex-wrap: wrap;
+
     
 }
 .lg .logo {
@@ -320,12 +322,12 @@ nav li {
 }
 .logo_2 {
     display: flex;
-    padding: 25px 127px;
+    padding-left: 127px;
     justify-content:center;
     align-items: center;
 }
 .block_8 nav {
-    margin-right: 84px;
+    margin-right: 60px;
 }
 
 .block_8 h2 {
@@ -346,4 +348,22 @@ nav li {
 }
 .logo_2 span {
     color: #d1d1d1;
+}
+
+
+
+@media screen and (max-width: 1115px) {
+    .logo_2 {
+        padding-left: 10px;
+    }
+    .logo {
+    margin-left: 10px;
+
+  }
+}
+@media screen and (max-width: 996px) {
+    
+
+
+  
 }
