@@ -249,7 +249,7 @@ nav li {
   }
   .text_4 {
       margin-left: 130px;
-      width: 725px;
+      width: 49%;
       
   }
   .block_7 p {
@@ -362,8 +362,100 @@ nav li {
   }
 }
 @media screen and (max-width: 996px) {
+    .block_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo_2 {
+        display:none;
+    }
+    .text_5 input {
+        width: 300px;
+    }
+    .block_8 nav {
+        margin-right: 0px;
+    }
+    .block_8 .navi {
+        padding-right: 0px;
+    }
+
     
+}
+@media screen and (max-width: 720px) {
+    .navi {
+        padding-right: 0px;
+    }
+    .block_2 {
+        width: 100%;
+    }
+    .block_2 input {
+        margin: 33px 0;
+    }
+    .e_mail {
+        flex-direction: column;
+    }
+    .block_6 {
+        display:none;
+    }
+    .block_5 {
+        width: 100%;
+    }
+    nav li {
+    margin-left: 8px;
+    }
+    .block_8 li {
+        margin-right: -2px;
+    }
+    .block_8 {
+        Justify-content: center;
+    } 
+    .fon_2 {
+    height: 400px;
+    }
+    .fon_2 h2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        padding-left: 0%;
+    }
+    .text_4 {
+        margin: 0px 56px;
+        width: 85%;
+        Text-align: justify;
+    }
+    .block_5 {
+        padding: 0 41px;
+        padding-bottom: 52px;
+    }
+    .text_5 input {
+        width: 200px;
+}
+@media screen and (max-width: 585px) {
+    .block_2 input {
+        padding-right: 90px;
+    }
+    .block_2 p {
+        font-size: 14px;
+    }
+    .fon_2 h2 {
+        font-size: 30px;
+    }
+    .fon_3 h3 {
+        font-size: 30px;
+    }
+    .lg .logo {
+        margin-left: 40px;
 
-
-  
+    }
+    .text_5 {
+    align-items: center;
+    flex-direction: column;
+    }
+    .fon_3 button {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .block_8 .navi a {
+        font-size: 10px;
+    }
 }
