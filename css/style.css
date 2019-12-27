@@ -372,6 +372,9 @@ nav li {
     .text_5 input {
         width: 300px;
     }
+    .block_8 {
+        Justify-content: center;
+    }
     .block_8 nav {
         margin-right: 0px;
     }
@@ -429,6 +432,7 @@ nav li {
     }
     .text_5 input {
         width: 200px;
+    }
 }
 @media screen and (max-width: 585px) {
     .block_2 input {
