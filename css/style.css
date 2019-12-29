@@ -132,6 +132,7 @@ nav li {
     font-family: "Ubuntu";
     border-radius: 10px;
     padding-right: 190px;
+    border-style: none;
    
  } 
 .lg {
@@ -193,9 +194,9 @@ nav li {
 .block_6 {
     height: 809px;
     background-image: url(../images/fon_4.jpg);
-    width: 51%;
+    width: 743px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .bl {
     display: flex;
@@ -290,6 +291,7 @@ nav li {
    font-family: "Ubuntu";
    border-radius: 10px;
    width: 588px;
+   border-style: groove;
 }
 .text_5 a {
     text-decoration: none;
@@ -430,6 +432,13 @@ nav li {
         padding: 0 41px;
         padding-bottom: 52px;
     }
+    .fon_2 h2 {
+    font-size: 30px;
+    }
+    .block_7 h4 {
+        font-size: 20px;
+    }
+
     .text_5 input {
         width: 200px;
     }
